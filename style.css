@@ -8,6 +8,26 @@ img {
   height: 3rem;
 }
 
+::-webkit-scrollbar {
+  width: .8rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 100vmax;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #333;
+}
+
+@supports (scrollbar-color: #555 #222) {
+  * {
+      scrollbar-color: #555 #222;
+      scrollbar-width: thin;
+  }
+}
+
 .sidebar {
   height: 100vh;
   background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .9)), url(images/img1.jpeg);
