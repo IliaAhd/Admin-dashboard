@@ -136,17 +136,10 @@ img {
 .card-common {
   box-shadow: 1px 2px 5px #999;
   transition: all .4s;
-  cursor: pointer;
+  cursor: progress;
 }
 
 .card-common:hover {
   box-shadow: 2px 3px 15px #999;
   transform: translateY(-1px);
-}
-
-@media (max-width: 20rem) {
-  table {
-    width: 1rem;
-    height: 1rem;
-  }
 }
