@@ -12,3 +12,7 @@ for (let i = 1; i < secondTableNumber.length; i++) {
 for (let i = 1; i < pageNumber.length; i++) {
   pageNumber[i].textContent = i + 1;
 }
+
+$(document).ready(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+});
