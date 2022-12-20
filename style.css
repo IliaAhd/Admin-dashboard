@@ -147,3 +147,12 @@ img {
 .task-border {
   border-left: 3px solid #f66436;
 }
+
+@media (max-width: 400px) {
+  .post-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
