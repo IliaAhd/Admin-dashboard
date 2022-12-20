@@ -9,7 +9,8 @@ img {
 }
 
 ::-webkit-scrollbar {
-  width: .8rem;
+  width: .5rem;
+  height: .5rem;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -148,11 +149,11 @@ img {
   border-left: 3px solid #f66436;
 }
 
-@media (max-width: 400px) {
-  .post-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
+@media (max-width: 25rem) {
+  .card-image {
+    overflow-x: scroll;
+  }
+  .card-image img {
+    display: none;
   }
 }
